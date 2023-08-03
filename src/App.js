@@ -29,6 +29,7 @@ function App() {
   };
   return (
     <div className="App">
+      <h1>Age Tracker</h1>
       <input type="text" placeholder="Enter Your Name" onChange={getName} />
       <input type="number" placeholder="Enter Your Age" onChange={getAge} />
       <button onClick={paragraphContent}>Click</button>
